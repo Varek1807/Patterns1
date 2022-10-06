@@ -41,8 +41,8 @@ public class DataGenerator {
         private Registration() {
         }
 
-        @Contract("_ -> new")
-        public static @NotNull UserInfo generateUser(String locale) {
+       // @Contract("_ -> new")
+        public static UserInfo generateUser(String locale) {
             return new UserInfo(
                     generateCity("ru"),
                     generateName("ru"),

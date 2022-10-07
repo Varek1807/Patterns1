@@ -36,7 +36,6 @@ public class DataGenerator {
         private Registration() {
         }
 
-       // @Contract("_ -> new")
         public static UserInfo generateUser(String locale) {
             return new UserInfo(
                     generateCity("ru"),
@@ -44,9 +43,6 @@ public class DataGenerator {
                     generatePhone("ru")
 
             );
-            // TODO: добавить логику для создания пользователя user с использованием методов generateCity(locale),
-            // generateName(locale), generatePhone(locale)
-            // return user;
         }
     }
 

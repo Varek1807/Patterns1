@@ -17,7 +17,6 @@ import java.util.Locale;
 import static com.codeborne.selenide.Selenide.*;
 
 class DeliveryTest {
-    // private static Faker faker;
 
     @BeforeEach
     void setup() {
